@@ -12,8 +12,6 @@ $db2User = $_POST['user-2'];
 $db2Password = $_POST['password-2'];
 $db2Database = $_POST['database-2'];
 
-//echo $db1Host;
-
 
 $list = array(array($db1Host, $db1User, $db1Password, $db1Database, $db2Host, $db2User, $db2Password, $db2Database), );
 

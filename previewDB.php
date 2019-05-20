@@ -4,6 +4,8 @@ include 'includes/header.php';
 $table_name = 'sms_hlrs';
 $step = 10000;
 
+
+
 $queryMaxIdDB1 = "SELECT max(id) FROM $table_name";
 $resultMaxDB1 = mysqli_query($db1, $queryMaxIdDB1);
 $resultMaxDB2 = mysqli_query($db2, $queryMaxIdDB1);
